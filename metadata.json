@@ -1,0 +1,20 @@
+{
+  "title": "PsiloSoma Dataset – Occurrence and Ethnomycological Data on Psilocybe spp. (2022–2024)",
+  "creators": [
+    {
+      "name": "Valletta FM"
+    }
+  ],
+  "description": "Georeferenced dataset of Psilocybe species occurrences integrating original field observations and literature records, structured according to Darwin Core standards.",
+  "keywords": [
+    "Psilocybe",
+    "ethnomycology",
+    "fungi",
+    "biodiversity",
+    "Darwin Core",
+    "GBIF"
+  ],
+  "license": "CC-BY-4.0",
+  "version": "1.0",
+  "publicationYear": "2024"
+}
