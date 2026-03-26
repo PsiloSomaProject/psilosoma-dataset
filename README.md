@@ -154,9 +154,17 @@ Spatial uncertainty varies by data source
 
 Dataset does not represent full species distribution
 
-License
+License 
 
 This dataset is released under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+Related Resources
+
+Part of the occurrence data is supported by field observations recorded through the iNaturalist platform:
+
+https://www.inaturalist.org/
+
+These observations contributed to the development and validation of the dataset.
 
 Citation
 
@@ -183,6 +191,12 @@ Psilocybe, ethnomycology, fungi, biodiversity, Darwin Core, GBIF, ecology, mycol
 Metadata (metadata.json)
 
 A metadata.json file accompanies this dataset and provides structured metadata for repository indexing and interoperability.
+
+Data Sources
+
+- Field observations (2022–2024)
+- Literature records
+- iNaturalist observations (where applicable)
 
 LICENSE FILE
 
