@@ -4,21 +4,26 @@
 
 **PsiloSoma Dataset – Occurrence and Ethnomycological Data on *Psilocybe* spp. (2022–2024)**
 
-The PsiloSoma Dataset is part of the **PsiloSoma Project**, an independent, non-commercial scientific initiative coordinated by Fabio Mao “NaturalMao” Valletta. The dataset provides curated occurrence and contextual data for selected *Psilocybe* records documented between 2022 and 2024, integrating original field observations and literature-derived records.
+The PsiloSoma Dataset is part of the **PsiloSoma Project**, an independent, non-commercial scientific initiative coordinated by Fabio Mao “NaturalMao” Valletta.
+
+The dataset provides curated occurrence and contextual data for selected *Psilocybe* records documented between 2022 and 2024, integrating original field observations and literature-derived records.
 
 The dataset is structured using **Darwin Core-aligned terms** to support interoperability with biodiversity data infrastructures, reproducible research, ecological documentation and responsible open science.
 
-## Zenodo record
+## Zenodo record and DOI
 
-A citable archived version is available on Zenodo:
+A citable archived version of the dataset is available on Zenodo:
 
-https://zenodo.org/records/19224063
+**DOI:** https://doi.org/10.5281/zenodo.19224063  
+**Record page:** https://zenodo.org/records/19224063
 
-Please cite the Zenodo record when using the dataset in publications, reports, presentations, derived datasets or other research outputs.
+Please cite the DOI when using the dataset in publications, reports, presentations, derived datasets or other research outputs.
+
+The Zenodo record page can be used as a public landing page for downloads, files, metadata, license and citation information.
 
 ## Suggested citation
 
-Valletta FM (2024). *PsiloSoma Dataset – Occurrence and Ethnomycological Data on Psilocybe spp. (2022–2024)*. Zenodo. DOI: 10.5281/zenodo.19224063
+Valletta FM (2024). *PsiloSoma Dataset – Occurrence and Ethnomycological Data on Psilocybe spp. (2022–2024)*. Zenodo. https://doi.org/10.5281/zenodo.19224063
 
 ## Repository contents
 
@@ -28,6 +33,7 @@ psilosoma_dataset.csv
 metadata.json
 CITATION.cff
 LICENSE
+CHANGELOG.md
 ```
 
 ## Scope
@@ -40,6 +46,8 @@ The dataset is intended for scientific, naturalistic, educational and conservati
 - biodiversity data standardization;
 - integration with open biodiversity infrastructures;
 - future taxonomic, ecological or conservation-related research.
+
+This public dataset currently covers the **2022–2024** data package. Later fieldwork, including 2025 material and observations, is **not included** in this public dataset and will remain under internal curation until taxonomic, legal, geoprivacy, documentation and publication checks are completed.
 
 ## Data sources
 
@@ -125,6 +133,12 @@ Some fungal taxa may be legally regulated, difficult to identify or potentially 
 
 The dataset is shared for scientific, naturalistic, educational and conservation-related purposes only.
 
+## Future updates
+
+Additional records and material from later fieldwork, including 2025 activities, are currently under curation and are not included in this public dataset.
+
+Future updates may be released only after taxonomic, legal, geoprivacy, documentation, authorization and publication checks. Any future public release will be documented through the repository changelog and, where appropriate, through a new archived version on Zenodo.
+
 ## Related publication
 
 This dataset is associated with and partly expands upon the following publication:
@@ -140,6 +154,7 @@ https://creativecommons.org/licenses/by/4.0/
 ## Contact
 
 PsiloSoma Project: psilosoma.project@gmail.com  
+Equivalent contact alias: psilosomaproject@gmail.com  
 Fabio Mao “NaturalMao” Valletta: maovalletta@gmail.com
 
 ## Keywords
