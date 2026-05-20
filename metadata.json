@@ -2,19 +2,39 @@
   "title": "PsiloSoma Dataset – Occurrence and Ethnomycological Data on Psilocybe spp. (2022–2024)",
   "creators": [
     {
-      "name": "Valletta FM"
+      "name": "Valletta, Fabio Mao",
+      "orcid": "0009-0003-0976-5464",
+      "affiliation": "Independent researcher; PsiloSoma Project"
     }
   ],
-  "description": "Georeferenced dataset of Psilocybe species occurrences integrating original field observations and literature records, structured according to Darwin Core standards.",
-  "keywords": [
-    "Psilocybe",
-    "ethnomycology",
-    "fungi",
-    "biodiversity",
-    "Darwin Core",
-    "GBIF"
-  ],
+  "description": "Curated occurrence and contextual data associated with selected Psilocybe records documented between 2022 and 2024 as part of the PsiloSoma Project, integrating original field observations and literature-derived records in a Darwin Core-aligned CSV structure.",
+  "project": "PsiloSoma Project",
+  "datasetType": "Occurrence dataset",
+  "doi": "10.5281/zenodo.19224063",
+  "identifier": "https://doi.org/10.5281/zenodo.19224063",
+  "url": "https://zenodo.org/records/19224063",
   "license": "CC-BY-4.0",
   "version": "1.0",
-  "publicationYear": "2024"
+  "publicationYear": "2024",
+  "language": "en",
+  "data_standard": "Darwin Core-aligned CSV",
+  "keywords": [
+    "Psilocybe",
+    "fungal biodiversity",
+    "mycology",
+    "ethnomycology",
+    "biogeography",
+    "fungal ecology",
+    "Darwin Core",
+    "GBIF",
+    "iNaturalist",
+    "open science",
+    "biodiversity data"
+  ],
+  "contact": {
+    "PsiloSoma Project": "psilosoma.project@gmail.com",
+    "Fabio Mao Valletta": "maovalletta@gmail.com"
+  },
+  "ethicalAndLegalNote": "This dataset is intended for scientific, naturalistic, educational and conservation-related purposes only. It does not promote consumption, cultivation, trade, recreational use, unauthorized collection or practical use of any organism.",
+  "geoprivacyNote": "Sensitive localities, protected areas or records requiring caution may be obscured, generalized or managed according to geoprivacy, conservation, authorization and data-sensitivity requirements."
 }

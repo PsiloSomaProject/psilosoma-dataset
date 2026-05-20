@@ -1,204 +1,147 @@
-PsiloSoma Dataset – Occurrence and Ethnomycological Data on Psilocybe spp. (2022–2024)
+# PsiloSoma Dataset
 
-Overview
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19224063.svg)](https://doi.org/10.5281/zenodo.19224063)
 
-This dataset is part of the PsiloSoma Project, an independent research initiative focused on ethnomycology, fungal ecology, and biogeography. It provides a curated and georeferenced collection of occurrence records for species within the genus Psilocybe, collected between 2022 and 2024, and integrates both original field observations and verified literature records.
+**PsiloSoma Dataset – Occurrence and Ethnomycological Data on *Psilocybe* spp. (2022–2024)**
 
-The dataset is structured according to the Darwin Core (DwC) standard to ensure interoperability with global biodiversity infrastructures.
+The PsiloSoma Dataset is part of the **PsiloSoma Project**, an independent, non-commercial scientific initiative coordinated by Fabio Mao “NaturalMao” Valletta. The dataset provides curated occurrence and contextual data for selected *Psilocybe* records documented between 2022 and 2024, integrating original field observations and literature-derived records.
 
-Project Description
+The dataset is structured using **Darwin Core-aligned terms** to support interoperability with biodiversity data infrastructures, reproducible research, ecological documentation and responsible open science.
 
-The PsiloSoma Project aims to document the distribution, ecology, and ethnomycological relevance of Psilocybe species and other psychotropic fungi. The project combines field research, literature review, and data curation to contribute to biodiversity knowledge and open science.
+## Zenodo record
 
-This dataset represents a hybrid data resource integrating:
+A citable archived version is available on Zenodo:
 
-Original field observations (new records)
+https://zenodo.org/records/19224063
 
-Literature-based occurrences from published studies
+Please cite the Zenodo record when using the dataset in publications, reports, presentations, derived datasets or other research outputs.
 
-Ecological and habitat data
+## Suggested citation
 
-Ethnomycological context where available
+Valletta FM (2024). *PsiloSoma Dataset – Occurrence and Ethnomycological Data on Psilocybe spp. (2022–2024)*. Zenodo. DOI: 10.5281/zenodo.19224063
 
-Dataset Description
+## Repository contents
 
-The dataset includes:
+```text
+README.md
+psilosoma_dataset.csv
+metadata.json
+CITATION.cff
+LICENSE
+```
 
-Georeferenced occurrence records
+## Scope
 
-Taxonomic identification based on morphological analysis
+The dataset is intended for scientific, naturalistic, educational and conservation-related purposes. It may support:
 
-Ecological metadata (habitat, elevation)
+- fungal biogeography and distribution studies;
+- ecological documentation and habitat comparison;
+- ethnomycological research;
+- biodiversity data standardization;
+- integration with open biodiversity infrastructures;
+- future taxonomic, ecological or conservation-related research.
 
-Temporal data (eventDate in ISO 8601 format)
+## Data sources
 
-Distinction between field observations and literature records
+The dataset integrates:
 
-Source attribution for each record
+- original field observations;
+- literature-derived records;
+- ecological and habitat metadata;
+- georeferenced occurrence data;
+- source attribution for each record;
+- non-sensitive ethnomycological or biocultural context where available.
 
-Coordinates were obtained via GPS or derived from reliable sources and validated during curation.
+Records are categorized using Darwin Core-compatible values such as:
 
-Methodology
+- `HumanObservation` — original field-based observation records;
+- `MaterialCitation` — literature-derived or publication-derived records.
 
-Data collection and validation followed these principles:
+## Data structure
 
-Field observations conducted between 2022–2024
+The dataset is provided as a CSV file using Darwin Core-aligned fields, including:
 
-Morphological identification based on macroscopic and microscopic features
+- `occurrenceID`
+- `datasetID`
+- `datasetName`
+- `occurrenceStatus`
+- `basisOfRecord`
+- `scientificName`
+- `taxonRank`
+- `kingdom`, `phylum`, `class`, `order`, `family`, `genus`
+- `decimalLatitude`, `decimalLongitude`
+- `geodeticDatum`
+- `coordinateUncertaintyInMeters`
+- `coordinatePrecision`
+- `country`, `countryCode`
+- `locality`
+- `eventDate`
+- `habitat`
+- `minimumElevationInMeters`
+- `recordedBy`, `identifiedBy`
+- `identificationRemarks`
+- `occurrenceRemarks`
+- `informationWithheld`
+- `georeferenceSources`
+- `associatedReferences`
 
-Comparison with peer-reviewed mycological literature
+## Methodology
 
-Integration of published records from scientific sources
+Data collection and curation followed these general principles:
 
-Georeferencing using GPS devices or validated geospatial tools
+- field observations and documentation conducted between 2022 and 2024;
+- taxonomic identification based primarily on morphological assessment and comparison with mycological literature;
+- integration of literature-derived records where relevant;
+- georeferencing through GPS data or validated geospatial sources;
+- assignment of coordinate uncertainty values according to data source and spatial precision;
+- standardization of fields using Darwin Core-aligned terminology;
+- internal consistency checks, duplicate review and taxonomic validation.
 
-Assignment of coordinate uncertainty values based on data source
+## Quality control
 
-Standardization using Darwin Core terms
+Quality-control procedures include:
 
-Internal quality control and consistency checks
+- manual validation of records;
+- cross-checking with scientific literature;
+- taxonomic consistency review;
+- coordinate plausibility checks;
+- removal or consolidation of duplicate records;
+- standardization of date, locality and terminology fields.
 
-Records are categorized as:
+## Limitations
 
-HumanObservation → original field data
+- Identifications are primarily morphology-based unless otherwise indicated.
+- Genetic confirmation is not available for all records.
+- Spatial uncertainty varies by record and data source.
+- Some literature-derived records may lack precise coordinates.
+- The dataset should not be interpreted as a complete distribution map.
+- Sensitive locations or details may be generalized, withheld or treated cautiously for geoprivacy, conservation, legal or authorization-related reasons.
 
-MaterialCitation → literature-derived records
+## Ethical and legal note
 
-Data Structure (Darwin Core)
+The PsiloSoma Project does **not** promote consumption, cultivation, trade, recreational use, unauthorized collection or practical use of any organism.
 
-The dataset is provided as a CSV file formatted according to Darwin Core standards.
+Some fungal taxa may be legally regulated, difficult to identify or potentially confused with toxic species. Any collection, transfer or analysis of biological material must comply with applicable laws, local regulations, protected-area rules and required authorizations.
 
-Core fields include:
+The dataset is shared for scientific, naturalistic, educational and conservation-related purposes only.
 
-occurrenceID – unique identifier
+## Related publication
 
-datasetID – dataset name
+This dataset is associated with and partly expands upon the following publication:
 
-occurrenceStatus – presence status
+Valletta FM (2023). *Contribution to the knowledge of two species of psilocybin mushrooms with high therapeutic potential found along the Central-Southern Apennines (Italy): Psilocybe serbica and Psilocybe semilanceata*. DOI: 10.6093/2724-4393/10411
 
-basisOfRecord – observation type
+## License
 
-scientificName – taxon name
+This dataset is released under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
 
-taxonRank – taxonomic rank
+https://creativecommons.org/licenses/by/4.0/
 
-kingdom, phylum, class, order, family, genus
+## Contact
 
-decimalLatitude, decimalLongitude
+PsiloSoma Project: psilosoma.project@gmail.com  
+Fabio Mao “NaturalMao” Valletta: maovalletta@gmail.com
 
-geodeticDatum – WGS84
+## Keywords
 
-coordinateUncertaintyInMeters
-
-coordinatePrecision
-
-country, countryCode
-
-locality
-
-eventDate
-
-habitat
-
-minimumElevationInMeters
-
-recordedBy, identifiedBy
-
-identificationRemarks
-
-occurrenceRemarks
-
-informationWithheld
-
-georeferenceSources
-
-dataSource
-
-Quality Control
-
-Manual validation of all records
-
-Cross-checking with scientific literature
-
-Taxonomic consistency verification
-
-Coordinate validation and plausibility checks
-
-Removal of duplicate records
-
-Standardization of formats and terminology
-
-Usage
-
-This dataset can be used for:
-
-Species distribution modeling
-
-Biodiversity and conservation studies
-
-Fungal ecology research
-
-Ethnomycological studies
-
-Integration into biodiversity platforms
-
-Limitations
-
-Identification is primarily morphology-based
-
-Genetic confirmation is not available for all records
-
-Some literature records lack precise coordinates
-
-Spatial uncertainty varies by data source
-
-Dataset does not represent full species distribution
-
-License 
-
-This dataset is released under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
-
-Related Resources
-
-Part of the occurrence data is supported by field observations recorded through the iNaturalist platform:
-
-https://www.inaturalist.org/
-
-These observations contributed to the development and validation of the dataset.
-
-Citation
-
-If you use this dataset, please cite it as:
-
-Valletta FM (2024). PsiloSoma Dataset – Occurrence and Ethnomycological Data on Psilocybe spp. (2022–2024). DOI: 10.5281/zenodo.19224063
-
-Project Information
-
-Project Name: PsiloSoma Project Research Area: Ethnomycology, Fungal Biogeography
-
-Contact
-
-psilosomaproject@gmail.com
-
-Acknowledgments
-
-This dataset was developed through independent research and incorporates contributions from literature sources and observational data platforms.
-
-Keywords
-
-Psilocybe, ethnomycology, fungi, biodiversity, Darwin Core, GBIF, ecology, mycology
-
-Metadata (metadata.json)
-
-A metadata.json file accompanies this dataset and provides structured metadata for repository indexing and interoperability.
-
-Data Sources
-
-- Field observations (2022–2024)
-- Literature records
-- iNaturalist observations (where applicable)
-
-LICENSE FILE
-
-A file named LICENSE is included in the dataset package containing the full text of the CC BY 4.0 license.
-
+*Psilocybe*, fungal biodiversity, mycology, ethnomycology, fungal ecology, biogeography, Darwin Core, GBIF, iNaturalist, open science, biodiversity data, Mediterranean biodiversity, ecological documentation.

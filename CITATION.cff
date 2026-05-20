@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using the metadata from this file and the Zenodo DOI."
+title: "PsiloSoma Dataset – Occurrence and Ethnomycological Data on Psilocybe spp. (2022–2024)"
+type: dataset
+authors:
+  - family-names: Valletta
+    given-names: Fabio Mao
+    name-particle: ""
+doi: 10.5281/zenodo.19224063
+url: "https://zenodo.org/records/19224063"
+year: 2024
+license: CC-BY-4.0
+keywords:
+  - Psilocybe
+  - fungal biodiversity
+  - mycology
+  - ethnomycology
+  - biogeography
+  - Darwin Core
+  - biodiversity data
+  - open science
