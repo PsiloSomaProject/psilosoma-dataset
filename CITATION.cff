@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it using the metadata from this file and the Zenodo DOI."
-title: "PsiloSoma Dataset – Occurrence and Ethnomycological Data on Psilocybe spp. (2022–2024)"
+message: "If you use this dataset, please cite it using the Zenodo DOI."
+title: "PsiloSoma Project Dataset 2022-2024"
 type: dataset
 authors:
   - family-names: Valletta
