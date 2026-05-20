@@ -5,7 +5,6 @@ type: dataset
 authors:
   - family-names: Valletta
     given-names: Fabio Mao
-    name-particle: ""
 doi: 10.5281/zenodo.19224063
 url: "https://zenodo.org/records/19224063"
 year: 2024

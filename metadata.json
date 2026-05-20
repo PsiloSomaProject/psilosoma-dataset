@@ -17,7 +17,7 @@
   "version": "1.0",
   "publicationYear": "2024",
   "language": "en",
-  "data_standard": "Darwin Core-aligned CSV",
+  "dataStandard": "Darwin Core-aligned CSV",
   "keywords": [
     "Psilocybe",
     "fungal biodiversity",
@@ -33,6 +33,7 @@
   ],
   "contact": {
     "PsiloSoma Project": "psilosoma.project@gmail.com",
+    "Equivalent contact alias": "psilosomaproject@gmail.com",
     "Fabio Mao Valletta": "maovalletta@gmail.com"
   },
   "ethicalAndLegalNote": "This dataset is intended for scientific, naturalistic, educational and conservation-related purposes only. It does not promote consumption, cultivation, trade, recreational use, unauthorized collection or practical use of any organism.",
