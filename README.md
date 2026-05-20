@@ -25,6 +25,14 @@ The Zenodo record page can be used as a public landing page for downloads, files
 
 Valletta FM (2024). *PsiloSoma Dataset – Occurrence and Ethnomycological Data on Psilocybe spp. (2022–2024)*. Zenodo. https://doi.org/10.5281/zenodo.19224063
 
+## Scientific coordination and dataset curation
+
+Fabio Mao Valletta  
+Naturalist and Scientific Coordinator of the PsiloSoma Project  
+ORCID: 0009-0003-0976-5464
+
+The GitHub repository is maintained under the PsiloSoma Project identity. Fabio Mao Valletta is indicated as scientific coordinator, dataset author/curator and contact person for scientific and documentation-related matters.
+
 ## Repository contents
 
 ```text
@@ -154,7 +162,8 @@ https://creativecommons.org/licenses/by/4.0/
 ## Contact
 
 PsiloSoma Project: psilosoma.project@gmail.com  
-Equivalent contact   
+Equivalent contact alias: psilosomaproject@gmail.com  
+
 Fabio Mao Valletta  
 Naturalist and Scientific Coordinator of the PsiloSoma Project  
 maovalletta@gmail.com
