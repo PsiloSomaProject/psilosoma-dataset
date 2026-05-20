@@ -154,8 +154,10 @@ https://creativecommons.org/licenses/by/4.0/
 ## Contact
 
 PsiloSoma Project: psilosoma.project@gmail.com  
-Equivalent contact alias: psilosomaproject@gmail.com  
-Fabio Mao “NaturalMao” Valletta: maovalletta@gmail.com
+Equivalent contact   
+Fabio Mao Valletta  
+Naturalist and Scientific Coordinator of the PsiloSoma Project  
+maovalletta@gmail.com
 
 ## Keywords
 
