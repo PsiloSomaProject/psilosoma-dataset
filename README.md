@@ -168,6 +168,25 @@ Fabio Mao Valletta
 Naturalist and Scientific Coordinator of the PsiloSoma Project  
 maovalletta@gmail.com
 
+## Project communication and contributions
+
+The PsiloSoma Project also maintains structured contribution and collaboration channels for Mediterranean ethnobiological and ethnomycological documentation. These channels are intended for scientific, educational, ecological, ethnobiological, ethnomycological and cultural documentation. They do not promote illegal collection, unauthorized sampling, trade, preparation, cultivation, consumption or recreational use of any organism. Sensitive locality data, precise coordinates, personal data and unpublished observations may be protected, generalized or excluded from public outputs when necessary.
+
+For broader Mediterranean ethnobiological contributions:
+https://forms.gle/ZnuZVic5iJR4KPtA8
+
+For PsiloSoma ethnomycological contributions:
+https://forms.gle/3faw6XLGQKey1Qu47
+
+For collaboration, media, samples or fieldwork support:
+https://forms.gle/EoGnJPrbFu4gyVsN6
+
+Project updates and videos:
+https://www.youtube.com/channel/UCGFHQMXPf76PMPEYFyg8nFg
+
+Contact:
+psilosoma.project@gmail.com
+
 ## Keywords
 
 *Psilocybe*, fungal biodiversity, mycology, ethnomycology, fungal ecology, biogeography, Darwin Core, GBIF, iNaturalist, open science, biodiversity data, Mediterranean biodiversity, ecological documentation.
